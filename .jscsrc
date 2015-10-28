@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "jscs-jsdoc"
+    ],
+    "jsDoc": {
+        "checkAnnotations": "jsdoc3"
+    },
+    "preset": "crockford",
+    "requireLineFeedAtFileEnd": null,
+    "validateIndentation": 4
+}

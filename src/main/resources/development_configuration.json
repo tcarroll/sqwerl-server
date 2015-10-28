@@ -1,0 +1,12 @@
+{
+    "applicationName": "db",
+    "baseUrl": "http://localhost:6719",
+    "applicationName": "sqwerl",
+    "catalogDatabaseName": "catalog",
+    "catalogDatabasePath": "../../../../sqwerl-catalog",
+    "clientSourcePath": "../../../../sqwerl/tmp/build",
+    "defaultDatabaseName": "tcarroll",
+    "defaultDatabasePath": "../../../../tcarroll",
+    "port": "6719",
+    "useHttps": false
+}

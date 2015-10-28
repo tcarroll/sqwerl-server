@@ -1,0 +1,11 @@
+.coverdata
+.coverrun
+debug
+.gradle
+gd_bundle.crt
+node_modules
+salt.txt
+target
+sqwerl.key
+sqwerl.org.crt
+sqwerl-nodejs-server.iml

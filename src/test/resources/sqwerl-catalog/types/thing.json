@@ -1,0 +1,29 @@
+{
+    "children": {
+        "</types/accounts>": "",
+        "</types/articles>": "",
+        "</types/aspects>": "",
+        "</types/authors>": "",
+        "</types/books>": "",
+        "</types/capabilities>": "",
+        "</types/categories>": "",
+        "</types/courses>": "",
+        "</types/databases>": "",
+        "</types/documents>": "",
+        "</types/feeds>": "",
+        "</types/groups>": "",
+        "</types/notes>": "",
+        "</types/papers>": "",
+        "</types/roles>": "",
+        "</types/tags>": "",
+        "</types/talks>": "",
+        "</types/users>": "",
+        "</types/videos>": "",
+        "</types/views>": "",
+        "</types/webPages>": ""
+    },
+    "creator": "</types/users/Administrator>",
+    "createdOn": "20130223 00:00:00.0 MST",
+    "name": "Types",
+    "owner": "</types/users/Administrator>"
+}

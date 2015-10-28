@@ -1,0 +1,91 @@
+{
+    "canRead": { },
+    "canWrite": { "</types/groups/Administrators>": "" },
+    "children": {
+        "</types/accounts>": "",
+        "</types/capabilities>": "",
+        "</types/databases>": "",
+        "</types/groups>": "",
+        "</types/roles>": "",
+        "</types/users>": ""
+    },
+    "creator": "</types/users/Administrator>",
+    "createdOn": "20120502 00:00:00.0 MST",
+    "description": "Types of things. All things of the same type have a similar set of characteristics.",
+    "extends": "",
+    "name": "Types",
+    "owner": "</types/users/Administrator>",
+    "properties": {
+        "canRead": {
+            "description": "The users and groups of users allowed to read a thing's properties.",
+            "name": "Can read",
+            "required": false,
+            "shortDescription": "Who can view a thing's properties?",
+            "type": { "</types>": "" }
+        },
+        "canWrite": {
+            "description": "The user and groups of users allowed to change a thing's properties.",
+            "name": "Can write",
+            "required": false,
+            "shortDescription": "Who can change a thing's properties?",
+            "type": { "</types>": "" }
+        },
+        "createdBy": {
+            "description": "The user who created an object.",
+            "inverse": "created",
+            "name": "Created by",
+            "required": true,
+            "shortDescription": "An object's creator.",
+            "type": "</types/users>"
+        },
+        "createdOn": {
+            "description": "The date and time when an object was created.",
+            "name": "Created on",
+            "required": true,
+            "shortDescription": "Creation time and date.",
+            "type": "timestamp"
+        },
+        "hasAttended": {
+            "description": "Events like meetings, talks, seminars, and courses that a user has attended.",
+            "name": "Attended",
+            "required": false,
+            "shortDescription": "Things (events) that a user has attended.",
+            "type": { "</types>": "" }
+        },
+        "hasListenedTo": {
+            "description": "Media or events a user has listened to.",
+            "name": "Listened to",
+            "required": false,
+            "shortDescription": "Things a user has listened to.",
+            "type": { "</types>": "" }
+        },
+        "owner": {
+            "description": "The user who owns an object.",
+            "inverse": "owns",
+            "name": "Owner",
+            "required": true,
+            "shortDescription": "An object's owner.",
+            "type": "</types/users>"
+        },
+        "shortDescription": {
+            "description": "Text that describes an object in less than 80 characters.",
+            "name": "Short description",
+            "shortDescription": "Text that briefly describes an object.",
+            "type": "text"
+        },
+        "tags": {
+            "description": "Key words or phrases that describe an object.",
+            "name": "Tags",
+            "shortDescription": "Key words or short phrases that describe an object.",
+            "type": { "</types/tags>": "" }
+        },
+        "version": {
+            "description": "An object's version number.",
+            "name": "Version",
+            "required": false,
+            "shortDescription": "Version number.",
+            "type": "nonNegativeInteger"
+        }
+    },
+    "shortDescription": "Types of things."
+}

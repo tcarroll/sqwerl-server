@@ -1,0 +1,26 @@
+{
+    "canRead": { },
+    "canWrite": { "</types/groups/Administrators>": "" },
+    "creator": "</types/users/Administrator>",
+    "createdOn": "20120413 00:00:00.0 MST",
+    "description": "Named collections of things.",
+    "extends": "</types>",
+    "name": "Databases",
+    "owner": "</types/users/Administrator>",
+    "properties": {
+        "description": {
+            "description": "Text that describes a database.",
+            "name": "Description",
+            "shortDescription": "A database's description.",
+            "type": "text"
+        },
+        "name": {
+            "description": "A database's name.",
+            "required": true,
+            "name": "Name",
+            "shortDescription": "A database's name.",
+            "type": "text"
+        }
+    },
+    "shortDescription": "Databases of things."
+}

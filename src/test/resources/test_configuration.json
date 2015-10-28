@@ -1,0 +1,8 @@
+{
+    "applicationName": "test",
+    "catalogDatabaseName": "catalog",
+    "catalogDatabasePath": "../../../../sqwerl-catalog",
+    "defaultDatabaseName": "default",
+    "defaultDatabasePath": "../../../../default",
+    "clientSourcePath": "../../../../sqwerl-sproutcore-client/client/builds"
+}

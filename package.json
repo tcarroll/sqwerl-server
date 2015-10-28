@@ -1,0 +1,32 @@
+{
+  "name": "sqwerl-server",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "lunr": "0.5.10",
+    "mime": "1.2.11",
+    "moment": "2.10.6",
+    "node-static": "0.7.2",
+    "sesh": "0.1.0",
+    "winston": ""
+  },
+  "devDependencies": {
+    "del": "1.2.0",
+    "frisby": "0.8.5",
+    "gulp": "^3.9.0",
+    "gulp-coverage": "0.3.36",
+    "gulp-jasmine": "1.0.0",
+    "gulp-jscs": "1.6.0",
+    "gulp-jshint": "1.11.0",
+    "gulp-load-plugins": "1.0.0-rc.1",
+    "gulp-run": "1.6.8",
+    "gulp-zip": "3.0.2",
+    "jasmine-reporters": "2.0.1",
+    "jquery": "1.11.3",
+    "jscs-jsdoc": "1.0.1",
+    "jshint-stylish": "1.0.2"
+  },
+  "engines": {
+    "node": ">=0.10.31"
+  }
+}

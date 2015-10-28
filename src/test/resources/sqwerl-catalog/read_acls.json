@@ -1,0 +1,23 @@
+{
+    "/types/accounts": {
+        "</types/groups/Administrators>": ""
+    },
+    "/types/capabilities": {
+    },
+    "/type/databases": {
+    },
+    "/types/groups": {
+    },
+    "/types/groups/Administrators": {
+    },
+    "/types/roles": {
+    },
+    "/types/users": {
+    },
+    "/types/users/Administrator": {
+        "</types/groups/Administrators>": ""
+    },
+    "/types/users/guest": {
+        "</types/groups/Administrators>": ""
+    }
+}

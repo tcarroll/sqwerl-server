@@ -1,0 +1,38 @@
+{
+    "canRead": { },
+    "canWrite": { "</types/groups/Administrators>": "" },
+    "creator": "</types/users/Administrator>",
+    "createdOn": "20120413 00:00:00.0 MST",
+    "description": "Actions that users are granted the ability to perform. A role is a named collection of capabilities granted to users who perform the role.",
+    "extends": "</types>",
+    "name": "Roles",
+    "owner": "</types/users/Administrator>",
+    "properties": {
+        "capabilities": {
+            "description": "The things users who can perform this role are allowed to do.",
+            "inverse": "roles",
+            "required": true,
+            "type": { "</types/capabilities>": "" }
+        },
+        "description": {
+            "description": "Text that describes a security role.",
+            "name": "Description",
+            "shortDescription": "A security role's description.",
+            "type": "text"
+        },
+        "groups": {
+            "description": "The groups of users who are allowed to perform a role.",
+            "relatedTo": "roles",
+            "required": true,
+            "type": { "</types/groups>": "" }
+        },
+        "name": {
+            "description": "A role's name.",
+            "required": true,
+            "name": "Name",
+            "shortDescription": "A role's name.",
+            "type": "text"
+        }
+    },
+    "shortDescription": "Security roles."
+}

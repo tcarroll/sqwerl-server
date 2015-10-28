@@ -1,0 +1,9 @@
+{
+    "children": {
+        "</types/users/Administrator>": ""
+    },
+    "creator": "</types/users/Administrator>",
+    "createdOn": "20130218 00:00:00.0 MST",
+    "name": "Users",
+    "owner": "</types/users/Administrator>"
+}

@@ -1,0 +1,53 @@
+{
+    "canRead": { },
+    "canWrite": { "</types/groups/Administrators>": "" },
+    "creator": "</types/users/Administrator>",
+    "createdOn": "20120413 00:00:00.0 MST",
+    "description": "Named collections of related users.",
+    "extends": "</types>",
+    "name": "Groups",
+    "owner": "</types/users/Administrator>",
+    "properties": {
+        "description": {
+            "description": "Text that describes a group of users.",
+            "name": "Description",
+            "shortDescription": "A group's description.",
+            "type": "text"
+        },
+        "name": {
+            "description": "A group's name.",
+            "required": true,
+            "name": "Name",
+            "shortDescription": "A group's name.",
+            "type": "text"
+        },
+        "parent": {
+            "description": "A group's parent group.",
+            "inverse": "children",
+            "shortDescription": "Parent group.",
+            "type": "ref(</types/groups>)"
+        },
+        "roles": {
+            "description": "The roles that a group's users are allowed to perform.",
+            "inverse": "groups",
+            "required": true,
+            "shortDescription": "Roles.",
+            "type": { "</types/roles>": "" }
+        },
+        "subgroups": {
+            "description": "A group's child groups.",
+            "inverse": "parent",
+            "required": true,
+            "shortDescription": "Child groups.",
+            "type": { "</types/groups>": "" }
+        },
+        "users": {
+            "description": "The users who are members of this group.",
+            "inverse": "groups",
+            "required": true,
+            "shortDescription": "Users.",
+            "type": { "</types/users>": "" }
+        }
+    },
+    "shortDescription": "Groups of related users."
+}

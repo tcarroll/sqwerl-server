@@ -1,0 +1,67 @@
+{
+    "canRead": { "</types/groups/Administrators>": "" },
+    "canWrite": { "</types/groups/Administrators>": "" },
+    "creator": "</types/users/Administrator>",
+    "createdOn": "20120413 00:00:00.0 MST",
+    "description": "User accounts. Users must have a valid account in order to access services.",
+    "extends": "</types>",
+    "name": "Accounts",
+    "owner": "</types/users/Administrator>",
+    "properties": {
+        "description": {
+            "description": "Text that describes a user's account.",
+            "name": "Description",
+            "shortDescription": "An account's description.",
+            "type": "text"
+        },
+        "isEnabled": {
+            "description": "Is the user's account enabled?",
+            "name": "Is enabled",
+            "required": true,
+            "shortDescription": "Is the user's account active?",
+            "type": "boolean"
+        },
+        "handle": {
+            "description": "A user's handle (nickname) that is visible to other users.",
+            "name": "Handle",
+            "shortDescription": "A user's handle (nickname).",
+            "type": "text"
+        },
+        "isLocked": {
+            "description": "Has the user's account been locked? Users with locked accounts are not allowed to sign in.",
+            "name": "Is locked",
+            "required": true,
+            "shortDescription": "Is the user allowed to sign in?",
+            "type": "boolean"
+        },
+        "mustChangePassword": {
+            "description": "Is a user required to change his password after signing in?",
+            "name": "Must change password",
+            "required": true,
+            "shortDescription": "Does the user have to change his or her password after signing in?",
+            "type": "boolean"
+        },
+        "password": {
+            "description": "A user's encrypted password.",
+            "name": "Password",
+            "required": true,
+            "shortDescription": "A user's password.",
+            "type": "text"
+        },
+        "salt": {
+            "type": "text"
+        },
+        "signInTime": {
+            "description": "The time and date when a user last signed in.",
+            "shortDescription": "Last sign in time.",
+            "type": "timestamp"
+        },
+        "user": {
+            "description": "An account's user.",
+            "required": true,
+            "shortDescription": "The user who owns an account.",
+            "type": "</types/user>"
+        }
+    },
+    "shortDescription": "Users' accounts."
+}

@@ -1,0 +1,14 @@
+{
+    "account": "</types/accounts/guest>",
+    "canRead": { "</types/groups/Administrators>": "" },
+    "canWrite": { "</types/groups/Administrators>": "" },
+    "creator": "</types/users/Administrator>",
+    "createdOn": "20130221 00:00:00.0 MST",
+    "description": "Guest users are anonymous users who are allowed to try the system without having to create an account. They have very limited permissions.",
+    "emails": [ "guest@sqwerl.org" ],
+    "firstName": "guest",
+    "groups": "",
+    "lastName": "",
+    "owner": "</types/users/Administrator>",
+    "shortDescription": "Guest (anonymous) user."
+}
